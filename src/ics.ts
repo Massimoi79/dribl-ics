@@ -2,10 +2,16 @@ import ical, { ICalCalendarMethod, ICalEventStatus } from "ical-generator";
 import type { Config, Fixture } from "./types.js";
 
 export function buildIcs(fixtures: Fixture[], config: Config): string {
+  // We deliberately do NOT set a per-event `timezone` here. ical-generator v7
+  // dropped its built-in timezone conversion; setting `timezone` without
+  // installing a converter plugin emits raw UTC clock-digits relabelled as
+  // local time, which produces a ~10h-wrong result on subscriber devices.
+  // Instead we emit DTSTART/DTEND in UTC (suffixed with `Z`) — every calendar
+  // client (iOS, Google, Outlook) converts UTC to the viewer's local zone
+  // automatically.
   const cal = ical({
     name: config.calendarName,
     description: `Auto-generated from ${config.subdomain}.dribl.com. Last refreshed ${new Date().toISOString()}.`,
-    timezone: config.timezone,
     method: ICalCalendarMethod.PUBLISH,
     prodId: { company: "dribl-ics", product: "dribl-ics", language: "EN" },
     ttl: 60 * 60 * 12,
@@ -53,7 +59,6 @@ export function buildIcs(fixtures: Fixture[], config: Config): string {
       summary,
       description: descLines.join("\n"),
       location,
-      timezone: config.timezone,
       status,
     });
   }
