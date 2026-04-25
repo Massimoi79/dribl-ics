@@ -37,9 +37,14 @@ export function buildIcs(fixtures: Fixture[], config: Config): string {
 
     let status: ICalEventStatus | undefined;
     const s = (fx.status ?? "").toLowerCase();
-    if (s.includes("cancel")) status = ICalEventStatus.CANCELLED;
-    else if (s.includes("postpon") || s.includes("tentative")) status = ICalEventStatus.TENTATIVE;
-    else status = ICalEventStatus.CONFIRMED;
+    if (s.includes("cancel") || s.includes("forfeit") || s.includes("abandon")) {
+      status = ICalEventStatus.CANCELLED;
+    } else if (s.includes("postpon") || s.includes("tentative") || s.includes("tba")) {
+      status = ICalEventStatus.TENTATIVE;
+    } else {
+      // pending, confirmed, scheduled, in_progress, completed, etc.
+      status = ICalEventStatus.CONFIRMED;
+    }
 
     cal.createEvent({
       id: `${fx.id}@dribl-ics`,

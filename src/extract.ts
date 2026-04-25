@@ -18,15 +18,32 @@ const KICKOFF_KEYS = [
   "date",
 ];
 const END_KEYS = ["ends_at", "end_at", "end_time", "finish_at"];
-const HOME_KEYS = ["home_team", "home", "homeTeam", "home_club", "home_squad"];
-const AWAY_KEYS = ["away_team", "away", "awayTeam", "away_club", "away_squad"];
+const HOME_KEYS = [
+  "home_team_name",
+  "home_team",
+  "home",
+  "homeTeam",
+  "home_club",
+  "home_squad",
+];
+const AWAY_KEYS = [
+  "away_team_name",
+  "away_team",
+  "away",
+  "awayTeam",
+  "away_club",
+  "away_squad",
+];
 const NAME_KEYS = ["name", "title", "display_name", "label", "long_name", "short_name", "club_name", "team_name"];
-const ID_KEYS = ["hashid", "id", "uuid", "match_id", "fixture_id", "code"];
-const VENUE_KEYS = ["venue", "ground", "location", "field"];
-const FIELD_KEYS = ["field", "pitch", "court"];
-const ADDRESS_KEYS = ["address", "address_full", "street", "formatted_address"];
-const COMP_KEYS = ["competition", "grade", "league", "tournament", "comp"];
-const ROUND_KEYS = ["round", "round_label", "round_name", "round_number", "stage"];
+// match_hash_id first so it wins over the wrapper's hash_id (which is the fixture record id);
+// match_hash_id stays stable across reschedules.
+const ID_KEYS = ["match_hash_id", "hash_id", "hashid", "id", "uuid", "match_id", "fixture_id", "code"];
+const VENUE_KEYS = ["venue", "ground_name", "ground", "location", "field"];
+const FIELD_KEYS = ["field_name", "field", "pitch", "court"];
+const ADDRESS_KEYS = ["ground_address", "address", "address_full", "street", "formatted_address"];
+const COMP_KEYS = ["competition_name", "competition", "league_name", "grade", "league", "tournament", "comp"];
+// full_round preferred over round so we get "Round 5" instead of just "R5".
+const ROUND_KEYS = ["full_round", "round", "round_label", "round_name", "round_number", "stage"];
 const STATUS_KEYS = ["status", "state", "match_status"];
 
 function isObject(v: Json): v is Record<string, unknown> {
@@ -90,6 +107,9 @@ function looksLikeFixture(obj: Record<string, unknown>): boolean {
 }
 
 function normalize(obj: Record<string, unknown>): Fixture | null {
+  // Skip byes — they're rounds where the team has no opponent.
+  if (obj["bye_flag"] === true || obj["is_bye"] === true) return null;
+
   const kickoff = toIso(pick(obj, KICKOFF_KEYS));
   const home = toStringName(pick(obj, HOME_KEYS));
   const away = toStringName(pick(obj, AWAY_KEYS));
@@ -121,7 +141,14 @@ function normalize(obj: Record<string, unknown>): Fixture | null {
     if (typeof a === "string") address = a;
   }
 
-  const competition = toStringName(pick(obj, COMP_KEYS));
+  // Combine competition + league when both present so the calendar entry reads e.g.
+  // "Junior Mixed Sunday — Mixed Sunday East 13B".
+  const compName = toStringName(pick(obj, ["competition_name", "competition", "grade", "tournament", "comp"]));
+  const leagueName = toStringName(pick(obj, ["league_name", "league"]));
+  const competition =
+    compName && leagueName && compName !== leagueName
+      ? `${compName} — ${leagueName}`
+      : compName ?? leagueName;
 
   let round: string | undefined;
   const roundRaw = pick(obj, ROUND_KEYS);
