@@ -5,7 +5,7 @@ METHOD:PUBLISH
 NAME:Team Fixtures
 X-WR-CALNAME:Team Fixtures
 X-WR-CALDESC:Auto-generated from fv.dribl.com. Last refreshed 2026-04-25T0
- 5:58:11.347Z.
+ 6:10:22.440Z.
 TIMEZONE-ID:Australia/Melbourne
 X-WR-TIMEZONE:Australia/Melbourne
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
@@ -13,7 +13,7 @@ X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:jmazZ22v6N@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260425T055811
+DTSTAMP:20260425T061022
 DTSTART;TZID=Australia/Melbourne:20260425T233000
 DTEND;TZID=Australia/Melbourne:20260426T010000
 SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Middle Park FC
@@ -26,104 +26,9 @@ DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:emAn5XaG9N@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260425T233000
-DTEND;TZID=Australia/Melbourne:20260426T010000
-SUMMARY:Manningham Juventus FC U12 Juniors - C Mixed U12 White vs Malvern 
- City FC U12 Juniors - C Mixed U12 -B (Round 1)
-LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field A
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 12C Red\nRound: Round 1\nHome: Manningham Juventus FC U12 Juniors - C
-  Mixed U12 White\nAway: Malvern City FC U12 Juniors - C Mixed U12 -B\nVenu
- e: Park Avenue Reserve (Main Pitch (S) - Half Field A)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:EN2pjapAld@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260426T013000
-DTEND;TZID=Australia/Melbourne:20260426T030000
-SUMMARY:Manningham United Blues FC U12 Juniors - B Mixed MUFC - Junior Boy
- s U12B (Robert) vs Manningham Juventus FC U12 Juniors - B Mixed U12 Black 
- (Round 1)
-LOCATION:Powerful Owl Park\, Pitch 3A
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 12B Blue\nRound: Round 1\nHome: Manningham United Blues FC U12 Junior
- s - B Mixed MUFC - Junior Boys U12B (Robert)\nAway: Manningham Juventus FC
-  U12 Juniors - B Mixed U12 Black\nVenue: Powerful Owl Park (Pitch 3A)\nSta
- tus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:yKJJoXVMzK@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260426T035000
-DTEND;TZID=Australia/Melbourne:20260426T052000
-SUMMARY:Mooroolbark SC U14 Juniors - B Mixed Mooroolbark SC - Under 14 Bjo
- rn vs Manningham Juventus FC U14 Juniors - B Mixed U14 (Round 1)
-LOCATION:Esther Park Reserve\, Pitch 2 (Synthetic)
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed East 14
- B\nRound: Round 1\nHome: Mooroolbark SC U14 Juniors - B Mixed Mooroolbark 
- SC - Under 14 Bjorn\nAway: Manningham Juventus FC U14 Juniors - B Mixed U1
- 4\nVenue: Esther Park Reserve (Pitch 2 (Synthetic))\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:BdDb5eDjxN@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260502T230000
-DTEND;TZID=Australia/Melbourne:20260503T003000
-SUMMARY:Manningham Juventus FC U12 Juniors - C Mixed U12 White vs Riversda
- le SC U12 Juniors - C Mixed Riversdale U12 Boys - White (Round 2)
-LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field B
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 12C Red\nRound: Round 2\nHome: Manningham Juventus FC U12 Juniors - C
-  Mixed U12 White\nAway: Riversdale SC U12 Juniors - C Mixed Riversdale U12
-  Boys - White\nVenue: Park Avenue Reserve (Main Pitch (S) - Half Field B)\
- nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:1K3p5apgLd@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260503T001500
-DTEND;TZID=Australia/Melbourne:20260503T014500
-SUMMARY:Manningham Juventus FC U12 Juniors - B Mixed U12 Black vs Monash C
- ity Villarreal FC U12 Juniors - B Mixed Monash City Villarreal FC U12 Blue
-  (Round 2)
-LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field B
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 12B Blue\nRound: Round 2\nHome: Manningham Juventus FC U12 Juniors - 
- B Mixed U12 Black\nAway: Monash City Villarreal FC U12 Juniors - B Mixed M
- onash City Villarreal FC U12 Blue\nVenue: Park Avenue Reserve (Main Pitch 
- (S) - Half Field B)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:EN2pjL7Drd@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260503T014500
-DTEND;TZID=Australia/Melbourne:20260503T031500
-SUMMARY:Manningham Juventus FC U14 Juniors - B Mixed U14 vs East Kew FC U1
- 4 Juniors - B Mixed U14B Boys (Round 2)
-LOCATION:Park Avenue Reserve\, Main Pitch (S)
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed East 14
- B\nRound: Round 2\nHome: Manningham Juventus FC U14 Juniors - B Mixed U14\
- nAway: East Kew FC U14 Juniors - B Mixed U14B Boys\nVenue: Park Avenue Res
- erve (Main Pitch (S))\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:BdDb522XJN@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260425T055811
+DTSTAMP:20260425T061022
 DTSTART;TZID=Australia/Melbourne:20260503T024500
 DTEND;TZID=Australia/Melbourne:20260503T041500
 SUMMARY:Doncaster Rovers SC U13 Juniors - B Mixed vs Manningham Juventus F
@@ -138,7 +43,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:nmYnw22xxN@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260425T055811
+DTSTAMP:20260425T061022
 DTSTART;TZID=Australia/Melbourne:20260509T233000
 DTEND;TZID=Australia/Melbourne:20260510T010000
 SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Mooroolbark SC
@@ -152,87 +57,9 @@ DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:BdDb5eDqQN@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260510T000000
-DTEND;TZID=Australia/Melbourne:20260510T013000
-SUMMARY:Middle Park FC U12 Juniors - C Mixed vs Manningham Juventus FC U12
-  Juniors - C Mixed U12 White (Round 3)
-LOCATION:JL Murphy Reserve\, Pitch 3A
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 12C Red\nRound: Round 3\nHome: Middle Park FC U12 Juniors - C Mixed\n
- Away: Manningham Juventus FC U12 Juniors - C Mixed U12 White\nVenue: JL Mu
- rphy Reserve (Pitch 3A)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:vdWDRBLPEm@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260510T011500
-DTEND;TZID=Australia/Melbourne:20260510T024500
-SUMMARY:Manningham United Blues FC U14 Juniors - B Mixed MUFC - Junior Boy
- s U14B vs Manningham Juventus FC U14 Juniors - B Mixed U14 (Round 3)
-LOCATION:Pettys Reserve\, Pitch 2
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed East 14
- B\nRound: Round 3\nHome: Manningham United Blues FC U14 Juniors - B Mixed 
- MUFC - Junior Boys U14B\nAway: Manningham Juventus FC U14 Juniors - B Mixe
- d U14\nVenue: Pettys Reserve (Pitch 2)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:8Nq5Eo5lQN@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260510T013000
-DTEND;TZID=Australia/Melbourne:20260510T030000
-SUMMARY:Manningham Juventus FC U12 Juniors - B Mixed U12 Black vs Croydon 
- City SC U12 Juniors - B Mixed U12 - CCSC Red (Round 3)
-LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field A
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 12B Blue\nRound: Round 3\nHome: Manningham Juventus FC U12 Juniors - 
- B Mixed U12 Black\nAway: Croydon City SC U12 Juniors - B Mixed U12 - CCSC 
- Red\nVenue: Park Avenue Reserve (Main Pitch (S) - Half Field A)\nStatus: p
- ending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:ld45q8Xw0m@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260516T230000
-DTEND;TZID=Australia/Melbourne:20260517T003000
-SUMMARY:Manningham Juventus FC U12 Juniors - C Mixed U12 White vs Maccabi 
- FC Caulfield U12 Juniors - C Mixed Maccabi FC Caulfield U12 Blue (Round 4)
-LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field B
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 12C Red\nRound: Round 4\nHome: Manningham Juventus FC U12 Juniors - C
-  Mixed U12 White\nAway: Maccabi FC Caulfield U12 Juniors - C Mixed Maccabi
-  FC Caulfield U12 Blue\nVenue: Park Avenue Reserve (Main Pitch (S) - Half 
- Field B)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:lNbJZnJvpN@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260517T001500
-DTEND;TZID=Australia/Melbourne:20260517T014500
-SUMMARY:Manningham Juventus FC U12 Juniors - B Mixed U12 Black vs Mooroolb
- ark SC U12 Juniors - B Mixed Mooroolbark SC - Under 12 Cameron (Round 4)
-LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field B
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 12B Blue\nRound: Round 4\nHome: Manningham Juventus FC U12 Juniors - 
- B Mixed U12 Black\nAway: Mooroolbark SC U12 Juniors - B Mixed Mooroolbark 
- SC - Under 12 Cameron\nVenue: Park Avenue Reserve (Main Pitch (S) - Half F
- ield B)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:emAn5wwq8N@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260425T055811
+DTSTAMP:20260425T061022
 DTSTART;TZID=Australia/Melbourne:20260517T005500
 DTEND;TZID=Australia/Melbourne:20260517T022500
 SUMMARY:Manningham United Blues FC U13 Juniors - B Mixed MUFC - Junior Boy
@@ -247,84 +74,9 @@ DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:JmXWxLGAld@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260517T014500
-DTEND;TZID=Australia/Melbourne:20260517T031500
-SUMMARY:Manningham Juventus FC U14 Juniors - B Mixed U14 vs Malvern City F
- C U14 Juniors - B Mixed U14 - B (Round 4)
-LOCATION:Park Avenue Reserve\, Main Pitch (S)
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed East 14
- B\nRound: Round 4\nHome: Manningham Juventus FC U14 Juniors - B Mixed U14\
- nAway: Malvern City FC U14 Juniors - B Mixed U14 - B\nVenue: Park Avenue R
- eserve (Main Pitch (S))\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:8Nq5Eo5zyN@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260523T235500
-DTEND;TZID=Australia/Melbourne:20260524T012500
-SUMMARY:Mazenod FC U12 Juniors - B Mixed vs Manningham Juventus FC U12 Jun
- iors - B Mixed U12 Black (Round 5)
-LOCATION:Brandon Park Reserve\, MiniRoos 1 (U11)
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 12B Blue\nRound: Round 5\nHome: Mazenod FC U12 Juniors - B Mixed\nAwa
- y: Manningham Juventus FC U12 Juniors - B Mixed U12 Black\nVenue: Brandon 
- Park Reserve (MiniRoos 1 (U11))\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:EN2pj8kVEd@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260524T000000
-DTEND;TZID=Australia/Melbourne:20260524T013000
-SUMMARY:Port Melbourne SC U12 Juniors - C Mixed Blue vs Manningham Juventu
- s FC U12 Juniors - C Mixed U12 White (Round 5)
-LOCATION:STRUC Steel Stadium\, pitch 1 - Half B
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 12C Red\nRound: Round 5\nHome: Port Melbourne SC U12 Juniors - C Mixe
- d Blue\nAway: Manningham Juventus FC U12 Juniors - C Mixed U12 White\nVenu
- e: STRUC Steel Stadium (pitch 1 - Half B)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:am140B6Rnd@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260524T010500
-DTEND;TZID=Australia/Melbourne:20260524T023500
-SUMMARY:Whitehorse United SC U14 Juniors - B Mixed Mark/Nick vs Manningham
-  Juventus FC U14 Juniors - B Mixed U14 (Round 5)
-LOCATION:Terrara Park\, Pitch 3
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed East 14
- B\nRound: Round 5\nHome: Whitehorse United SC U14 Juniors - B Mixed Mark/N
- ick\nAway: Manningham Juventus FC U14 Juniors - B Mixed U14\nVenue: Terrar
- a Park (Pitch 3)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:emAn52n4RN@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260530T230000
-DTEND;TZID=Australia/Melbourne:20260531T003000
-SUMMARY:Burwood City FC U12 Juniors - B Mixed RUI vs Manningham Juventus F
- C U12 Juniors - B Mixed U12 Black (Round 6)
-LOCATION:Ballyshannassy Park\, Pitch 2 - 9v9 (B)
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 12B Blue\nRound: Round 6\nHome: Burwood City FC U12 Juniors - B Mixed
-  RUI\nAway: Manningham Juventus FC U12 Juniors - B Mixed U12 Black\nVenue:
-  Ballyshannassy Park (Pitch 2 - 9v9 (B))\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:yKJJo2QlbK@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260425T055811
+DTSTAMP:20260425T061022
 DTSTART;TZID=Australia/Melbourne:20260531T000000
 DTEND;TZID=Australia/Melbourne:20260531T013000
 SUMMARY:Brandon Park SC U13 Juniors - B Mixed vs Manningham Juventus FC U1
@@ -337,40 +89,9 @@ DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:JmXWxLGerd@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260531T003000
-DTEND;TZID=Australia/Melbourne:20260531T020000
-SUMMARY:Manningham Juventus FC U14 Juniors - B Mixed U14 vs Ringwood City 
- FC U14 Juniors - B Mixed 14MC Dev Squad (Round 6)
-LOCATION:Park Avenue Reserve\, Main Pitch (S)
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed East 14
- B\nRound: Round 6\nHome: Manningham Juventus FC U14 Juniors - B Mixed U14\
- nAway: Ringwood City FC U14 Juniors - B Mixed 14MC Dev Squad\nVenue: Park 
- Avenue Reserve (Main Pitch (S))\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:ydoRyZRbaK@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260613T230000
-DTEND;TZID=Australia/Melbourne:20260614T003000
-SUMMARY:Manningham Juventus FC U12 Juniors - B Mixed U12 Black vs Whitehor
- se United SC U12 Juniors - B Mixed Matt (Round 7)
-LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field A
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 12B Blue\nRound: Round 7\nHome: Manningham Juventus FC U12 Juniors - 
- B Mixed U12 Black\nAway: Whitehorse United SC U12 Juniors - B Mixed Matt\n
- Venue: Park Avenue Reserve (Main Pitch (S) - Half Field A)\nStatus: pendin
- g
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:RNEg52El9d@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260425T055811
+DTSTAMP:20260425T061022
 DTSTART;TZID=Australia/Melbourne:20260614T001500
 DTEND;TZID=Australia/Melbourne:20260614T014500
 SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Eastern Lions 
@@ -383,72 +104,9 @@ DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:emAn5zQ81N@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260614T003000
-DTEND;TZID=Australia/Melbourne:20260614T020000
-SUMMARY:Oakleigh Cannons FC U14 Juniors - B Mixed OCFC Sayed S vs Manningh
- am Juventus FC U14 Juniors - B Mixed U14 (Round 7)
-LOCATION:Mayfield Reserve\, Main Pitch
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed East 14
- B\nRound: Round 7\nHome: Oakleigh Cannons FC U14 Juniors - B Mixed OCFC Sa
- yed S\nAway: Manningham Juventus FC U14 Juniors - B Mixed U14\nVenue: Mayf
- ield Reserve (Main Pitch)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:vdWDRzJ3nm@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260614T022500
-DTEND;TZID=Australia/Melbourne:20260614T035500
-SUMMARY:Ashburton United SC U12 Juniors - C Mixed Panthers vs Manningham J
- uventus FC U12 Juniors - C Mixed U12 White (Round 7)
-LOCATION:Warner Reserve - Ashburton\, SSF 4 (U11) Ashburton
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 12C Red\nRound: Round 7\nHome: Ashburton United SC U12 Juniors - C Mi
- xed Panthers\nAway: Manningham Juventus FC U12 Juniors - C Mixed U12 White
- \nVenue: Warner Reserve - Ashburton (SSF 4 (U11) Ashburton)\nStatus: pendi
- ng
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:ld45qa5A2m@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260620T230000
-DTEND;TZID=Australia/Melbourne:20260621T003000
-SUMMARY:Manningham Juventus FC U12 Juniors - B Mixed U12 Black vs Manningh
- am United Blues FC U12 Juniors - B Mixed MUFC - Junior Boys U12B (Robert) 
- (Round 8)
-LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field B
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 12B Blue\nRound: Round 8\nHome: Manningham Juventus FC U12 Juniors - 
- B Mixed U12 Black\nAway: Manningham United Blues FC U12 Juniors - B Mixed 
- MUFC - Junior Boys U12B (Robert)\nVenue: Park Avenue Reserve (Main Pitch (
- S) - Half Field B)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:JmXWxnJLkd@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260425T055811
-DTSTART;TZID=Australia/Melbourne:20260621T001500
-DTEND;TZID=Australia/Melbourne:20260621T014500
-SUMMARY:Manningham Juventus FC U12 Juniors - C Mixed U12 White vs FC Bulle
- en Lions U12 Juniors - C Mixed Derryn (Round 8)
-LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field B
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 12C Red\nRound: Round 8\nHome: Manningham Juventus FC U12 Juniors - C
-  Mixed U12 White\nAway: FC Bulleen Lions U12 Juniors - C Mixed Derryn\nVen
- ue: Park Avenue Reserve (Main Pitch (S) - Half Field B)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:xm8ZW53xzK@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260425T055811
+DTSTAMP:20260425T061022
 DTSTART;TZID=Australia/Melbourne:20260621T002000
 DTEND;TZID=Australia/Melbourne:20260621T015000
 SUMMARY:Mooroolbark SC U13 Juniors - B Mixed Mooroolbark SC - Under 13 Stu
@@ -465,7 +123,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:WdgqJnPGxN@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260425T055811
+DTSTAMP:20260425T061022
 DTSTART;TZID=Australia/Melbourne:20260627T233000
 DTEND;TZID=Australia/Melbourne:20260628T010000
 SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Croydon City S
@@ -480,7 +138,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:WdgqJnPLDN@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260425T055811
+DTSTAMP:20260425T061022
 DTSTART;TZID=Australia/Melbourne:20260712T002000
 DTEND;TZID=Australia/Melbourne:20260712T015000
 SUMMARY:Malvern City FC U13 Juniors - B Mixed U13 Niko - B vs Manningham J
@@ -495,7 +153,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ydoRyVkwLK@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260425T055811
+DTSTAMP:20260425T061022
 DTSTART;TZID=Australia/Melbourne:20260719T000000
 DTEND;TZID=Australia/Melbourne:20260719T013000
 SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Whitehorse Uni
@@ -510,7 +168,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:vdWDR20RDm@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260425T055811
+DTSTAMP:20260425T061022
 DTSTART;TZID=Australia/Melbourne:20260726T003000
 DTEND;TZID=Australia/Melbourne:20260726T020000
 SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Mazenod FC U13
@@ -525,7 +183,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ZNQOp2YExd@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260425T055811
+DTSTAMP:20260425T061022
 DTSTART;TZID=Australia/Melbourne:20260809T023000
 DTEND;TZID=Australia/Melbourne:20260809T040000
 SUMMARY:Middle Park FC U13 Juniors - B Mixed vs Manningham Juventus FC U13
@@ -540,7 +198,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:JmXWx2ZAzd@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260425T055811
+DTSTAMP:20260425T061022
 DTSTART;TZID=Australia/Melbourne:20260815T233000
 DTEND;TZID=Australia/Melbourne:20260816T010000
 SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Doncaster Rove
@@ -555,7 +213,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ZKRyp2X6DN@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260425T055811
+DTSTAMP:20260425T061022
 DTSTART;TZID=Australia/Melbourne:20260823T000500
 DTEND;TZID=Australia/Melbourne:20260823T013500
 SUMMARY:Mooroolbark SC U13 Juniors - B Mixed Mooroolbark SC - Under 13 And
@@ -572,7 +230,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:xm8ZW53zDK@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260425T055811
+DTSTAMP:20260425T061022
 DTSTART;TZID=Australia/Melbourne:20260830T000000
 DTEND;TZID=Australia/Melbourne:20260830T013000
 SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Manningham Uni
@@ -589,7 +247,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:8Nq5EeOnJN@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260425T055811
+DTSTAMP:20260425T061022
 DTSTART;TZID=Australia/Melbourne:20260906T011500
 DTEND;TZID=Australia/Melbourne:20260906T024500
 SUMMARY:Whitehorse United SC U13 Juniors - B Mixed Doug/Nick vs Manningham
