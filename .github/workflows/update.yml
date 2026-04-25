@@ -44,9 +44,20 @@ jobs:
         run: npm run build
 
       - name: Generate calendar
+        id: generate
         run: node dist/scrape.js
         env:
           DEBUG_DRIBL: ${{ vars.DEBUG_DRIBL || '' }}
+
+      - name: Upload diagnostic artefacts
+        if: always() && (failure() || vars.DEBUG_DRIBL == '1')
+        uses: actions/upload-artifact@v4
+        with:
+          name: dribl-captures-${{ github.run_id }}
+          path: |
+            captures/
+          if-no-files-found: ignore
+          retention-days: 7
 
       - name: Update last-updated stamp
         run: |
