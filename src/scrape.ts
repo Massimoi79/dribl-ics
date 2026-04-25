@@ -5,7 +5,7 @@ import { chromium, type BrowserContext, type Page, type Response } from "playwri
 import { buildMatchCentreUrl, loadConfig } from "./config.js";
 import { filterByTeam, findFixtures, sortByKickoff } from "./extract.js";
 import { buildIcs } from "./ics.js";
-import type { Fixture } from "./types.js";
+import type { Config, Fixture } from "./types.js";
 
 const DEBUG = process.env.DEBUG_DRIBL === "1";
 const CAPTURES_DIR = "captures";
@@ -15,6 +15,28 @@ interface CapturedResponse {
   status: number;
   contentType: string;
   body: unknown;
+}
+
+/**
+ * Only the canonical /api/fixtures endpoint that has ALL the user's configured
+ * filters (club, season, competition, league) applied. Excludes helper
+ * endpoints like /api/fixtures-clubs (all clubs) and /api/list/rounds (all
+ * leagues including other age groups), which would otherwise leak fixtures
+ * for unrelated teams into the calendar.
+ */
+function isPrimaryFixturesUrl(url: string, config: Config): boolean {
+  let u: URL;
+  try {
+    u = new URL(url);
+  } catch {
+    return false;
+  }
+  if (!/\/api\/fixtures\/?$/.test(u.pathname)) return false;
+  if (config.club && u.searchParams.get("club") !== config.club) return false;
+  if (config.season && u.searchParams.get("season") !== config.season) return false;
+  if (config.competition && u.searchParams.get("competition") !== config.competition) return false;
+  if (config.league && u.searchParams.get("league") !== config.league) return false;
+  return true;
 }
 
 function safeFilename(s: string): string {
@@ -176,9 +198,21 @@ async function run(): Promise<void> {
     await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60_000 });
     await loadAllFixtures(page);
 
+    const primaryResponses = captured.filter((c) => isPrimaryFixturesUrl(c.url, config));
     const map = new Map<string, Fixture>();
-    for (const c of captured) findFixtures(c.body, map);
+    for (const c of primaryResponses) findFixtures(c.body, map);
     fixtures = Array.from(map.values());
+
+    if (primaryResponses.length === 0 && captured.length > 0) {
+      console.warn(
+        `Captured ${captured.length} JSON responses but none matched the primary /api/fixtures endpoint with the configured filters. ` +
+          `Either Dribl changed their URL shape, or your config.json filters don't match those used by the SPA.`,
+      );
+    } else {
+      console.log(
+        `Using ${primaryResponses.length} of ${captured.length} captured responses (primary /api/fixtures endpoint with matching filters).`,
+      );
+    }
   } catch (err) {
     runError = err;
   } finally {
