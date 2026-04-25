@@ -1,0 +1,26 @@
+{
+  "name": "dribl-ics",
+  "version": "1.0.0",
+  "description": "Generate a subscribable iCalendar feed of Dribl fixtures (Football Victoria) and publish via GitHub Pages.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "scrape": "tsc && node dist/scrape.js",
+    "scrape:dev": "tsx src/scrape.ts",
+    "smoke": "tsc && node dist/smoke.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ical-generator": "^7.2.0",
+    "playwright": "^1.47.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.4"
+  }
+}

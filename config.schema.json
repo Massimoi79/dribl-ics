@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DriblIcsConfig",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["subdomain", "season"],
+  "properties": {
+    "subdomain": {
+      "type": "string",
+      "description": "Dribl Match Centre subdomain (e.g. 'fv' for Football Victoria, 'fsa' for Football SA)."
+    },
+    "club": {
+      "type": "string",
+      "description": "Dribl club ID (from the ?club= URL param). Optional; combine with teamFilter to narrow."
+    },
+    "season": {
+      "type": "string",
+      "description": "Dribl season ID (from the ?season= URL param)."
+    },
+    "competition": {
+      "type": "string",
+      "description": "Dribl competition ID (from the ?competition= URL param). Optional; if omitted, all competitions for the club in that season are included."
+    },
+    "league": {
+      "type": "string",
+      "description": "Dribl league ID (from the ?league= URL param). Optional; some associations use league as an additional filter level above competition."
+    },
+    "teamFilter": {
+      "type": "string",
+      "description": "Optional case-insensitive substring matched against the team's grade/name to narrow to one specific team (e.g. 'U13 Boys'). Empty string disables."
+    },
+    "timezone": {
+      "type": "string",
+      "description": "IANA timezone the kickoff times should be presented in (e.g. 'Australia/Melbourne')."
+    },
+    "calendarName": {
+      "type": "string",
+      "description": "Display name written into the .ics (X-WR-CALNAME)."
+    },
+    "matchDurationMinutes": {
+      "type": "integer",
+      "minimum": 30,
+      "maximum": 240,
+      "description": "Default event length when Dribl doesn't expose a finish time."
+    },
+    "outputPath": {
+      "type": "string",
+      "description": "Where to write the generated .ics file, relative to repo root."
+    }
+  }
+}
