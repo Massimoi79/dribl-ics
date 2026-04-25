@@ -19,8 +19,10 @@ permissions:
   contents: write
 
 concurrency:
+  # Only one update at a time. Newer triggers cancel older queued/running ones,
+  # so a manual workflow_dispatch + an automatic push-trigger don't race.
   group: update-ics
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
