@@ -4,179 +4,54 @@ PRODID:-//dribl-ics//dribl-ics//EN
 METHOD:PUBLISH
 NAME:Team Fixtures
 X-WR-CALNAME:Team Fixtures
-X-WR-CALDESC:Auto-generated from fv.dribl.com. Last refreshed 2026-05-31T1
- 8:10:19.943Z.
+X-WR-CALDESC:Auto-generated from fv.dribl.com. Last refreshed 2026-06-10T1
+ 0:22:42.681Z.
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:RNEg52El9d@dribl-ics
+UID:yKJJegrv6K@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260531T181019Z
-DTSTART:20260614T001500Z
-DTEND:20260614T014500Z
-SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Eastern Lions 
- SC U13 Juniors - B Mixed (Round 7)
-LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field A
+DTSTAMP:20260610T102242Z
+DTSTART:20260613T231500Z
+DTEND:20260614T004500Z
+SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Maccabi FC Cau
+ lfield U13 Juniors - B Mixed Maccabi FC Caulfield U13 Blue (Round 7)
+LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field B
 DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
  East 13B\nRound: Round 7\nHome: Manningham Juventus FC U13 Juniors - B Mix
- ed U13\nAway: Eastern Lions SC U13 Juniors - B Mixed\nVenue: Park Avenue R
- eserve (Main Pitch (S) - Half Field A)\nStatus: pending
+ ed U13\nAway: Maccabi FC Caulfield U13 Juniors - B Mixed Maccabi FC Caulfi
+ eld U13 Blue\nVenue: Park Avenue Reserve (Main Pitch (S) - Half Field B)\n
+ Status: pending
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:xm8ZW53xzK@dribl-ics
+UID:Rdk2LnBOAK@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260531T181019Z
-DTSTART:20260621T002000Z
-DTEND:20260621T015000Z
-SUMMARY:Mooroolbark SC U13 Juniors - B Mixed Mooroolbark SC - Under 13 Stu
-  vs Manningham Juventus FC U13 Juniors - B Mixed U13 (Round 8)
-LOCATION:Esther Park Reserve\, Esther Park Reserve - Junior Pitch 3 Synthe
- tic - Aus/Mel
+DTSTAMP:20260610T102242Z
+DTSTART:20260621T030000Z
+DTEND:20260621T043000Z
+SUMMARY:Middle Park FC U13 Juniors - B Mixed vs Manningham Juventus FC U13
+  Juniors - B Mixed U13 (Round 8)
+LOCATION:JL Murphy Reserve\, Pitch 3A
 DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 13B\nRound: Round 8\nHome: Mooroolbark SC U13 Juniors - B Mixed Mooro
- olbark SC - Under 13 Stu\nAway: Manningham Juventus FC U13 Juniors - B Mix
- ed U13\nVenue: Esther Park Reserve (Esther Park Reserve - Junior Pitch 3 S
- ynthetic - Aus/Mel)\nStatus: pending
+ East 13B\nRound: Round 8\nHome: Middle Park FC U13 Juniors - B Mixed\nAway
+ : Manningham Juventus FC U13 Juniors - B Mixed U13\nVenue: JL Murphy Reser
+ ve (Pitch 3A)\nStatus: pending
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:WdgqJnPGxN@dribl-ics
+UID:vdWDPVnQDm@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260531T181019Z
-DTSTART:20260627T233000Z
-DTEND:20260628T010000Z
+DTSTAMP:20260610T102242Z
+DTSTART:20260628T003000Z
+DTEND:20260628T020000Z
 SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Croydon City S
  C U13 Juniors - B Mixed U13 - CCSC Red (Round 9)
-LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field A
+LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field B
 DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
  East 13B\nRound: Round 9\nHome: Manningham Juventus FC U13 Juniors - B Mix
  ed U13\nAway: Croydon City SC U13 Juniors - B Mixed U13 - CCSC Red\nVenue:
-  Park Avenue Reserve (Main Pitch (S) - Half Field A)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:WdgqJnPLDN@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260531T181019Z
-DTSTART:20260712T002000Z
-DTEND:20260712T015000Z
-SUMMARY:Malvern City FC U13 Juniors - B Mixed U13 Niko - B vs Manningham J
- uventus FC U13 Juniors - B Mixed U13 (Round 10)
-LOCATION:Kooyong Park\, Junior
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 13B\nRound: Round 10\nHome: Malvern City FC U13 Juniors - B Mixed U13
-  Niko - B\nAway: Manningham Juventus FC U13 Juniors - B Mixed U13\nVenue: 
- Kooyong Park (Junior)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:ydoRyVkwLK@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260531T181019Z
-DTSTART:20260719T000000Z
-DTEND:20260719T013000Z
-SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Whitehorse Uni
- ted SC U13 Juniors - B Mixed Shane (Round 11)
-LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field B
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 13B\nRound: Round 11\nHome: Manningham Juventus FC U13 Juniors - B Mi
- xed U13\nAway: Whitehorse United SC U13 Juniors - B Mixed Shane\nVenue: Pa
- rk Avenue Reserve (Main Pitch (S) - Half Field B)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:vdWDR20RDm@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260531T181019Z
-DTSTART:20260726T003000Z
-DTEND:20260726T020000Z
-SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Mazenod FC U13
-  Juniors - B Mixed (Round 12)
-LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field A
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 13B\nRound: Round 12\nHome: Manningham Juventus FC U13 Juniors - B Mi
- xed U13\nAway: Mazenod FC U13 Juniors - B Mixed\nVenue: Park Avenue Reserv
- e (Main Pitch (S) - Half Field A)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:ZNQOp2YExd@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260531T181019Z
-DTSTART:20260809T023000Z
-DTEND:20260809T040000Z
-SUMMARY:Middle Park FC U13 Juniors - B Mixed vs Manningham Juventus FC U13
-  Juniors - B Mixed U13 (Round 14)
-LOCATION:JL Murphy Reserve\, Pitch 3A
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 13B\nRound: Round 14\nHome: Middle Park FC U13 Juniors - B Mixed\nAwa
- y: Manningham Juventus FC U13 Juniors - B Mixed U13\nVenue: JL Murphy Rese
- rve (Pitch 3A)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:JmXWx2ZAzd@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260531T181019Z
-DTSTART:20260815T233000Z
-DTEND:20260816T010000Z
-SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Doncaster Rove
- rs SC U13 Juniors - B Mixed (Round 15)
-LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field A
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 13B\nRound: Round 15\nHome: Manningham Juventus FC U13 Juniors - B Mi
- xed U13\nAway: Doncaster Rovers SC U13 Juniors - B Mixed\nVenue: Park Aven
- ue Reserve (Main Pitch (S) - Half Field A)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:ZKRyp2X6DN@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260531T181019Z
-DTSTART:20260823T000500Z
-DTEND:20260823T013500Z
-SUMMARY:Mooroolbark SC U13 Juniors - B Mixed Mooroolbark SC - Under 13 And
- rew vs Manningham Juventus FC U13 Juniors - B Mixed U13 (Round 16)
-LOCATION:Esther Park Reserve\, Esther Park Reserve - Junior Pitch 3 Synthe
- tic - Aus/Mel
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 13B\nRound: Round 16\nHome: Mooroolbark SC U13 Juniors - B Mixed Moor
- oolbark SC - Under 13 Andrew\nAway: Manningham Juventus FC U13 Juniors - B
-  Mixed U13\nVenue: Esther Park Reserve (Esther Park Reserve - Junior Pitch
-  3 Synthetic - Aus/Mel)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:xm8ZW53zDK@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260531T181019Z
-DTSTART:20260830T000000Z
-DTEND:20260830T013000Z
-SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Manningham Uni
- ted Blues FC U13 Juniors - B Mixed MUFC - Junior Boys U13B (Samir) (Round 
- 17)
-LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field A
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 13B\nRound: Round 17\nHome: Manningham Juventus FC U13 Juniors - B Mi
- xed U13\nAway: Manningham United Blues FC U13 Juniors - B Mixed MUFC - Jun
- ior Boys U13B (Samir)\nVenue: Park Avenue Reserve (Main Pitch (S) - Half F
- ield A)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:8Nq5EeOnJN@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260531T181019Z
-DTSTART:20260906T011500Z
-DTEND:20260906T024500Z
-SUMMARY:Whitehorse United SC U13 Juniors - B Mixed Doug/Nick vs Manningham
-  Juventus FC U13 Juniors - B Mixed U13 (Round 18)
-LOCATION:Terrara Park\, Pitch 7A
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 13B\nRound: Round 18\nHome: Whitehorse United SC U13 Juniors - B Mixe
- d Doug/Nick\nAway: Manningham Juventus FC U13 Juniors - B Mixed U13\nVenue
- : Terrara Park (Pitch 7A)\nStatus: pending
+  Park Avenue Reserve (Main Pitch (S) - Half Field B)\nStatus: pending
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
