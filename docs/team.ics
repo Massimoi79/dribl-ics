@@ -4,30 +4,14 @@ PRODID:-//dribl-ics//dribl-ics//EN
 METHOD:PUBLISH
 NAME:Team Fixtures
 X-WR-CALNAME:Team Fixtures
-X-WR-CALDESC:Auto-generated from fv.dribl.com. Last refreshed 2026-06-13T1
- 8:17:17.071Z.
+X-WR-CALDESC:Auto-generated from fv.dribl.com. Last refreshed 2026-06-14T1
+ 8:19:16.816Z.
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:yKJJegrv6K@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260613T181717Z
-DTSTART:20260613T231500Z
-DTEND:20260614T004500Z
-SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Maccabi FC Cau
- lfield U13 Juniors - B Mixed Maccabi FC Caulfield U13 Blue (Round 7)
-LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field B
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 13B\nRound: Round 7\nHome: Manningham Juventus FC U13 Juniors - B Mix
- ed U13\nAway: Maccabi FC Caulfield U13 Juniors - B Mixed Maccabi FC Caulfi
- eld U13 Blue\nVenue: Park Avenue Reserve (Main Pitch (S) - Half Field B)\n
- Status: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:Rdk2LnBOAK@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260613T181717Z
+DTSTAMP:20260614T181916Z
 DTSTART:20260621T030000Z
 DTEND:20260621T043000Z
 SUMMARY:Middle Park FC U13 Juniors - B Mixed vs Manningham Juventus FC U13
@@ -42,7 +26,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:vdWDPVnQDm@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260613T181717Z
+DTSTAMP:20260614T181916Z
 DTSTART:20260628T003000Z
 DTEND:20260628T020000Z
 SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Croydon City S
