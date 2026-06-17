@@ -4,14 +4,14 @@ PRODID:-//dribl-ics//dribl-ics//EN
 METHOD:PUBLISH
 NAME:Team Fixtures
 X-WR-CALNAME:Team Fixtures
-X-WR-CALDESC:Auto-generated from fv.dribl.com. Last refreshed 2026-06-16T2
- 0:15:23.262Z.
+X-WR-CALDESC:Auto-generated from fv.dribl.com. Last refreshed 2026-06-17T1
+ 9:28:14.321Z.
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:Rdk2LnBOAK@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260616T201523Z
+DTSTAMP:20260617T192814Z
 DTSTART:20260621T030000Z
 DTEND:20260621T043000Z
 SUMMARY:Middle Park FC U13 Juniors - B Mixed vs Manningham Juventus FC U13
@@ -26,7 +26,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:vdWDPVnQDm@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260616T201523Z
+DTSTAMP:20260617T192814Z
 DTSTART:20260628T003000Z
 DTEND:20260628T020000Z
 SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Croydon City S
@@ -36,6 +36,145 @@ DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday
  East 13B\nRound: Round 9\nHome: Manningham Juventus FC U13 Juniors - B Mix
  ed U13\nAway: Croydon City SC U13 Juniors - B Mixed U13 - CCSC Red\nVenue:
   Park Avenue Reserve (Main Pitch (S) - Half Field B)\nStatus: pending
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:RNEgObveAd@dribl-ics
+SEQUENCE:0
+DTSTAMP:20260617T192814Z
+DTSTART:20260712T000000Z
+DTEND:20260712T013000Z
+SUMMARY:Malvern City FC U13 Juniors - B Mixed U13 Niko - B vs Manningham J
+ uventus FC U13 Juniors - B Mixed U13 (Round 10)
+LOCATION:Kooyong Park\, Pitch 1A - Half Pitch
+DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
+ East 13B\nRound: Round 10\nHome: Malvern City FC U13 Juniors - B Mixed U13
+  Niko - B\nAway: Manningham Juventus FC U13 Juniors - B Mixed U13\nVenue: 
+ Kooyong Park (Pitch 1A - Half Pitch)\nStatus: pending
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:Rdk2Ln0qjK@dribl-ics
+SEQUENCE:0
+DTSTAMP:20260617T192814Z
+DTSTART:20260719T003000Z
+DTEND:20260719T020000Z
+SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Whitehorse Uni
+ ted SC U13 Juniors - B Mixed Doug/Nick (Round 11)
+LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field A
+DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
+ East 13B\nRound: Round 11\nHome: Manningham Juventus FC U13 Juniors - B Mi
+ xed U13\nAway: Whitehorse United SC U13 Juniors - B Mixed Doug/Nick\nVenue
+ : Park Avenue Reserve (Main Pitch (S) - Half Field A)\nStatus: pending
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:EN2pJQ9Ged@dribl-ics
+SEQUENCE:0
+DTSTAMP:20260617T192814Z
+DTSTART:20260726T000000Z
+DTEND:20260726T013000Z
+SUMMARY:Brandon Park SC U13 Juniors - B Mixed vs Manningham Juventus FC U1
+ 3 Juniors - B Mixed U13 (Round 12)
+LOCATION:Freeway Reserve\, 2B (Half)
+DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
+ East 13B\nRound: Round 12\nHome: Brandon Park SC U13 Juniors - B Mixed\nAw
+ ay: Manningham Juventus FC U13 Juniors - B Mixed U13\nVenue: Freeway Reser
+ ve (2B (Half))\nStatus: pending
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:am14JDVWAd@dribl-ics
+SEQUENCE:0
+DTSTAMP:20260617T192814Z
+DTSTART:20260802T000500Z
+DTEND:20260802T013500Z
+SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Nunawading Cit
+ y FC U13 Juniors - B Mixed (Round 13)
+LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field B
+DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
+ East 13B\nRound: Round 13\nHome: Manningham Juventus FC U13 Juniors - B Mi
+ xed U13\nAway: Nunawading City FC U13 Juniors - B Mixed\nVenue: Park Avenu
+ e Reserve (Main Pitch (S) - Half Field B)\nStatus: pending
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:jmazob4XYN@dribl-ics
+SEQUENCE:0
+DTSTAMP:20260617T192814Z
+DTSTART:20260809T010000Z
+DTEND:20260809T023000Z
+SUMMARY:Eastern Lions SC U13 Juniors - B Mixed vs Manningham Juventus FC U
+ 13 Juniors - B Mixed U13 (Round 14)
+LOCATION:Gardiners Creek Reserve\, Pitch 2 (S) A
+DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
+ East 13B\nRound: Round 14\nHome: Eastern Lions SC U13 Juniors - B Mixed\nA
+ way: Manningham Juventus FC U13 Juniors - B Mixed U13\nVenue: Gardiners Cr
+ eek Reserve (Pitch 2 (S) A)\nStatus: pending
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:emAnv33bMN@dribl-ics
+SEQUENCE:0
+DTSTAMP:20260617T192814Z
+DTSTART:20260816T003000Z
+DTEND:20260816T020000Z
+SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Doncaster Rove
+ rs SC U13 Juniors - B Mixed (Round 15)
+LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field A
+DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
+ East 13B\nRound: Round 15\nHome: Manningham Juventus FC U13 Juniors - B Mi
+ xed U13\nAway: Doncaster Rovers SC U13 Juniors - B Mixed\nVenue: Park Aven
+ ue Reserve (Main Pitch (S) - Half Field A)\nStatus: pending
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:pN6RJkkR7N@dribl-ics
+SEQUENCE:0
+DTSTAMP:20260617T192814Z
+DTSTART:20260823T023500Z
+DTEND:20260823T040500Z
+SUMMARY:Mooroolbark SC U13 Juniors - B Mixed Mooroolbark SC - Under 13 And
+ rew vs Manningham Juventus FC U13 Juniors - B Mixed U13 (Round 16)
+LOCATION:Esther Park Reserve\, Esther Park Reserve - Junior Pitch 3 Synthe
+ tic - Half
+DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
+ East 13B\nRound: Round 16\nHome: Mooroolbark SC U13 Juniors - B Mixed Moor
+ oolbark SC - Under 13 Andrew\nAway: Manningham Juventus FC U13 Juniors - B
+  Mixed U13\nVenue: Esther Park Reserve (Esther Park Reserve - Junior Pitch
+  3 Synthetic - Half)\nStatus: pending
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lNbJBWWapN@dribl-ics
+SEQUENCE:0
+DTSTAMP:20260617T192814Z
+DTSTART:20260830T003000Z
+DTEND:20260830T020000Z
+SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Manningham Uni
+ ted Blues FC U13 Juniors - B Mixed MUFC - Junior Boys U13B (Samir) (Round 
+ 17)
+LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field A
+DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
+ East 13B\nRound: Round 17\nHome: Manningham Juventus FC U13 Juniors - B Mi
+ xed U13\nAway: Manningham United Blues FC U13 Juniors - B Mixed MUFC - Jun
+ ior Boys U13B (Samir)\nVenue: Park Avenue Reserve (Main Pitch (S) - Half F
+ ield A)\nStatus: pending
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lNbJBWWGwN@dribl-ics
+SEQUENCE:0
+DTSTAMP:20260617T192814Z
+DTSTART:20260905T230000Z
+DTEND:20260906T003000Z
+SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Mazenod FC U13
+  Juniors - B Mixed (Round 18)
+LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field A
+DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
+ East 13B\nRound: Round 18\nHome: Manningham Juventus FC U13 Juniors - B Mi
+ xed U13\nAway: Mazenod FC U13 Juniors - B Mixed\nVenue: Park Avenue Reserv
+ e (Main Pitch (S) - Half Field A)\nStatus: pending
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
