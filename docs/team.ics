@@ -4,31 +4,14 @@ PRODID:-//dribl-ics//dribl-ics//EN
 METHOD:PUBLISH
 NAME:Team Fixtures
 X-WR-CALNAME:Team Fixtures
-X-WR-CALDESC:Auto-generated from fv.dribl.com. Last refreshed 2026-08-22T1
- 7:27:50.861Z.
+X-WR-CALDESC:Auto-generated from fv.dribl.com. Last refreshed 2026-08-23T1
+ 7:26:59.186Z.
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pN6RJkkR7N@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260822T172750Z
-DTSTART:20260823T023500Z
-DTEND:20260823T040500Z
-SUMMARY:Mooroolbark SC U13 Juniors - B Mixed Mooroolbark SC - Under 13 And
- rew vs Manningham Juventus FC U13 Juniors - B Mixed U13 (Round 16)
-LOCATION:Esther Park Reserve\, Esther Park Reserve - Junior Pitch 3 Synthe
- tic - Half
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 13B\nRound: Round 16\nHome: Mooroolbark SC U13 Juniors - B Mixed Moor
- oolbark SC - Under 13 Andrew\nAway: Manningham Juventus FC U13 Juniors - B
-  Mixed U13\nVenue: Esther Park Reserve (Esther Park Reserve - Junior Pitch
-  3 Synthetic - Half)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:lNbJBWWapN@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260822T172750Z
+DTSTAMP:20260823T172659Z
 DTSTART:20260830T003000Z
 DTEND:20260830T020000Z
 SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Manningham Uni
@@ -45,7 +28,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lNbJBWWGwN@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260822T172750Z
+DTSTAMP:20260823T172659Z
 DTSTART:20260905T230000Z
 DTEND:20260906T003000Z
 SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Mazenod FC U13
