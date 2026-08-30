@@ -4,31 +4,14 @@ PRODID:-//dribl-ics//dribl-ics//EN
 METHOD:PUBLISH
 NAME:Team Fixtures
 X-WR-CALNAME:Team Fixtures
-X-WR-CALDESC:Auto-generated from fv.dribl.com. Last refreshed 2026-08-29T1
- 9:39:36.148Z.
+X-WR-CALDESC:Auto-generated from fv.dribl.com. Last refreshed 2026-08-30T1
+ 9:43:24.837Z.
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:lNbJBWWapN@dribl-ics
-SEQUENCE:0
-DTSTAMP:20260829T193936Z
-DTSTART:20260830T003000Z
-DTEND:20260830T020000Z
-SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Manningham Uni
- ted Blues FC U13 Juniors - B Mixed MUFC - Junior Boys U13B (Samir) (Round 
- 17)
-LOCATION:Park Avenue Reserve\, Main Pitch (S) - Half Field A
-DESCRIPTION:Competition: Junior Mixed Sunday (U12 - U16) — Mixed Sunday 
- East 13B\nRound: Round 17\nHome: Manningham Juventus FC U13 Juniors - B Mi
- xed U13\nAway: Manningham United Blues FC U13 Juniors - B Mixed MUFC - Jun
- ior Boys U13B (Samir)\nVenue: Park Avenue Reserve (Main Pitch (S) - Half F
- ield A)\nStatus: pending
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:lNbJBWWGwN@dribl-ics
 SEQUENCE:0
-DTSTAMP:20260829T193936Z
+DTSTAMP:20260830T194324Z
 DTSTART:20260905T230000Z
 DTEND:20260906T003000Z
 SUMMARY:Manningham Juventus FC U13 Juniors - B Mixed U13 vs Mazenod FC U13
